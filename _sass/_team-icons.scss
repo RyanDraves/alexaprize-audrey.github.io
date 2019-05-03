@@ -5,7 +5,7 @@
     display: inline-block;
     width: 100px;
     margin: 5px;
-    > img {
+    img {
         width: 100px;
         height: 100px;
         border-radius: 50%;
@@ -13,4 +13,10 @@
     &:hover {
         opacity: 0.8;
     }
+}
+
+.team-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
