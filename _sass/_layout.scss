@@ -8,6 +8,8 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    background-color: $header-color;
 }
 
 .site-title {
@@ -17,6 +19,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    color: $grey-color-dark;
 
     &,
     &:visited {
@@ -100,6 +103,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: $footer-color;
 }
 
 .footer-heading {
