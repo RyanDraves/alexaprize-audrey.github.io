@@ -1,4 +1,4 @@
-job1:
+pages:
     script:
         - "gem install jekyll"
         - "jekyll serve"
