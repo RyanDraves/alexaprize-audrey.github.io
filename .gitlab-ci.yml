@@ -30,7 +30,6 @@ test:
   stage: test
   script:
   - apt-get update -y
-  - apt-get install -y openjdk-7-jre-headless
   - apt-get install -y locales
   - echo "en_US UTF-8" > /etc/locale.gen
   - locale-gen en_US.UTF-8
