@@ -5,7 +5,8 @@ cache:
   - vendor/
 
 before_script:
-  - bundle install --deployment --path vendor/bundle
+  - gem install bundler
+  - bundler update --bundler
 
 pages:
   stage: deploy
