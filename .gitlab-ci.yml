@@ -1,2 +1,4 @@
 job1:
-    script: "jekyll serve"
+    script:
+        - "gem install jekyll"
+        - "jekyll serve"
