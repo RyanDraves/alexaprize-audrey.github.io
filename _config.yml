@@ -18,3 +18,6 @@ github_username:  RyanDraves
 
 # Build settings
 markdown: kramdown
+# See https://docs.gitlab.com/ee/user/project/pages/getting_started_part_four.html
+exclude:
+    - vendor
