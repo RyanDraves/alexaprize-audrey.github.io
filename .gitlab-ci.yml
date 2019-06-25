@@ -1,8 +1,8 @@
 image: ruby:2.3
 
-cache:
-  paths:
-  - vendor/
+before_script:
+  - gem install bundler
+  - bundle install --path vendor
 
 pages:
   stage: deploy
