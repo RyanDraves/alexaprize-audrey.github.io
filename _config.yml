@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Prize challenge, where we are working to create a socialbot to talk to
   Alexa customers and advance the field of conversational AI.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://dravesr.pages.umsi.io/RyanDraves-github-io/" # the base hostname & protocol for your site
+url: "https://dravesr.pages.umsi.io/RyanDraves-github-io/" # the base hostname & protocol for your site
 github_username:  RyanDraves
 
 # Build settings
@@ -21,4 +21,6 @@ markdown: kramdown
 # See https://docs.gitlab.com/ee/user/project/pages/getting_started_part_four.html
 exclude:
     - vendor
+    - "Gemfile"
+    - "Gemfile.lock"
 encoding: utf-8
