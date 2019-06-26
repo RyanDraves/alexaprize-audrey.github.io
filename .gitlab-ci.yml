@@ -17,7 +17,7 @@ pages:
   - bundle exec jekyll build -d public/
   artifacts:
     paths:
-    - public
+    - public/
   only:
   - master
 
@@ -34,6 +34,6 @@ test:
   - bundle exec jekyll build -d test/
   artifacts:
     paths:
-    - test
+    - test/
   except:
   - master
