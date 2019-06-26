@@ -14,7 +14,7 @@ pages:
   - export LANG=en_US.UTF-8
   - export LANGUAGE=en_US:en
   - export LC_ALL=en_US.UTF-8
-  - bundle exec jekyll build -d public/ --watch
+  - bundle exec jekyll build -d public/
   artifacts:
     paths:
     - public/
