@@ -16,6 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dravesr.pages.umsi.io/RyanDraves-github-io/" # the base hostname & protocol for your site
 github_username:  RyanDraves
 
+
 # Build settings
 markdown: kramdown
 # See https://docs.gitlab.com/ee/user/project/pages/getting_started_part_four.html
