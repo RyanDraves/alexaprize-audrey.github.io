@@ -21,4 +21,6 @@ markdown: kramdown
 # See https://docs.gitlab.com/ee/user/project/pages/getting_started_part_four.html
 exclude:
     - vendor
+    - "Gemfile"
+    - "Gemfile.lock"
 encoding: utf-8
